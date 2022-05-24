@@ -43,7 +43,7 @@
         "section3 section3 section3"
         "aside1 aside1 aside2"
         "footer  footer";
-        grid-template-columns: 0.5fr 0,5fr 1fr 1fr 0.5fr 0.5fr ;
+    grid-template-columns: 0.5fr 0, 5fr 1fr 1fr 0.5fr 0.5fr;
 }
 
 .grid {
@@ -159,14 +159,14 @@ footera {
 .botonReserva {
     display: grid;
     position: relative;
-    
+
     justify-self: center;
-    animation-name:fotosDelIndex;
+    animation-name: fotosDelIndex;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-duration: 10s;
     animation-delay: 5s;
-    
+
 
 
 }
@@ -231,6 +231,7 @@ footera {
     text-align: center;
 
 }
+
 .navHeader2 {
 
     padding: 0px;
@@ -248,13 +249,15 @@ footera {
 
 
 }
+
 .video__header {
     display: grid;
-    
+
     border-radius: 5%;
     border: double black;
     background-color: black;
 }
+
 .agenda {
     display: flex;
     height: 100%;
@@ -264,32 +267,35 @@ footera {
 
 
 }
+
 .formulario {
     background-color: rgba(6, 2, 0, 0.905);
     display: grid;
     grid-template: auto;
- 
+
     justify-content: center;
     justify-items: center;
     justify-self: center;
     border-radius: 5%;
     padding: 2%;
     height: 90%;
-    width: 100%;   
-    
+    width: 100%;
+
 }
-.sup_formulario{
+
+.sup_formulario {
     display: grid;
     height: 90%;
     width: 50%;
 
 
 
-    }
-main{
+}
+
+main {
     display: grid;
     justify-items: center;
-    
+
 }
 
 * {
@@ -340,11 +346,12 @@ main{
     margin: 3%;
     border-radius: 5%;
     text-align: center;
-   
- 
+
+
 
 
 }
+
 .imagenindex1 {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -352,10 +359,11 @@ main{
     grid-row-gap: 15px;
     height: 70%;
     width: 70%;
-    justify-content:start;
+    justify-content: start;
     justify-items: center;
 
 }
+
 .imagenContacto {
     display: flex;
     margin: 3%;
@@ -364,6 +372,7 @@ main{
     height: auto;
     width: 28%;
 }
+
 .imagenContacto1 {
     display: flex;
     margin: auto;
@@ -372,6 +381,7 @@ main{
     height: auto;
     width: auto;
 }
+
 .imagenindexpublicidad {
     position: relative;
     margin: 1%;
@@ -381,31 +391,35 @@ main{
     display: flex;
     border-radius: 5%;
 }
+
 .publicidad {
-    
+
     display: grid;
     grid-template-columns: auto auto;
-       height: 100%;
+    height: 100%;
     width: 100%;
-    align-items:end;
-    
+    align-items: end;
+
 }
+
 .imagenindexpublicidad1 {
     position: relative;
     display: flex;
     height: 100%;
     width: 100%;
-    
+
 }
+
 .imagenindexpublicidad2 {
     position: relative;
     display: flex;
     height: 50%;
     width: 40%;
-    justify-self:end;
+    justify-self: end;
     justify-self: flex-end;
     margin-left: 60%;
 }
+
 .bodyagenda {
 
     background-repeat: no-repeat;
@@ -414,6 +428,7 @@ main{
     display: grid;
     height: 100%;
 }
+
 .contraste {
 
     background-color: rgba(0, 0, 0, 0.855);
@@ -423,18 +438,20 @@ main{
 
 
 }
+
 .bodybebida {
     background-image: url(../assets/img/fondobebida\ 2.jpg);
     background-color: rgba(0, 0, 0, 0.521);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:100;
+    height: 100;
 
 
 
 
 }
+
 .bodycomida {
     background-image: url(../assets/img/fondo\ 5.jpg);
     background-color: rgba(0, 0, 0, 0.855);
@@ -443,6 +460,7 @@ main{
     background-size: cover;
     height: 100%;
 }
+
 .bodycontacto {
     background-image: url(../assets/img/contacto.jpg);
     background-color: rgba(0, 0, 0, 0.855);
@@ -453,6 +471,7 @@ main{
 
 
 }
+
 .bodyindex {
 
     background-image: url(../assets/img/fondo\ index.jpg);
@@ -463,10 +482,12 @@ main{
     height: 80%;
 
 }
+
 .bodyindex2 {
     background-color: rgba(0, 0, 0, 0.419);
     height: 100%;
 }
+
 .textoindex {
     display: grid;
     padding: 5%;
@@ -479,11 +500,12 @@ main{
     background-color: rgba(139, 0, 0, 0.603);
     height: 55%;
     width: 70%;
-    
+
 
 
 
 }
+
 .footer2 {
     width: 100%;
     height: 10%;
@@ -496,6 +518,7 @@ main{
 
 
 }
+
 .footer {
     width: 98%;
     height: 60%;
@@ -510,6 +533,7 @@ main{
 
 
 }
+
 .p1 {
     color: rgb(255, 255, 255);
     background-color: rgba(38, 5, 5, 0);
@@ -525,9 +549,10 @@ main{
     text-align: center;
     text-align: justify;
     padding: 1%;
-    transition:all 3s;
+    transition: all 3s;
     border-radius: 15%;
 }
+
 .p2 {
     background-color: rgba(8, 0, 0, 0.837);
     color: rgb(255, 255, 255);
@@ -539,17 +564,19 @@ main{
     margin-right: 30%;
 
 }
+
 .p3 {
-    display: grid;        
-      background-color: rgba(255, 0, 0, 0);
+    display: grid;
+    background-color: rgba(255, 0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 150%;
     height: 100%;
     width: 100%;
     justify-content: center;
-     transition:all 3s;
+    transition: all 3s;
 
 }
+
 .p4 {
     background-color: rgba(167, 0, 0, 0.904);
     color: rgb(255, 255, 255);
@@ -563,6 +590,7 @@ main{
     border: solid 5px rgb(0, 0, 0);
 
 }
+
 .p5 {
     justify-items: center;
     justify-content: center;
@@ -576,6 +604,7 @@ main{
     height: 90%;
     width: 100%;
 }
+
 .p6 {
 
     margin-left: 2%;
@@ -590,6 +619,7 @@ main{
     font-style: italic;
     height: auto;
 }
+
 .p7 {
 
 
@@ -604,33 +634,157 @@ main{
     height: 50%;
     border: solid 5px rgb(147, 0, 0);
 }
+
 * {
     margin: 0%;
     padding: 0%;
 }
+
 @media screen and(max-width:800px) {
-    #grilla{
-        grid-template-columns:auto ;
+    #grilla {
+        grid-template-columns: auto;
     }
-    
+
 }
-.p1:hover{
+
+.p1:hover {
     background-color: rgba(255, 185, 33, 0.803);
     color: #93160f;
     font-size: 150%;
-    
+
 }
-.p3:focus{
+
+.p3:focus {
     width: 350px;
     font-size: 30px;
 
 
 }
 
-@keyframes fotoreserva{
-    0%{ width: 100px;height: 100px; }
-    25%{ width: 200px;height: 200px; }
-    50%{ width: 300px; height: 300px;}
-    75%{ width: 400px; height: 400px;}
-    100%{ width: 400px; height: 400px;}
-    } 
+@keyframes fotoreserva {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+
+    25% {
+        width: 200px;
+        height: 200px;
+    }
+
+    50% {
+        width: 300px;
+        height: 300px;
+    }
+
+    75% {
+        width: 400px;
+        height: 400px;
+    }
+
+    100% {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+@keyframes rotate-scale-up {
+    0% {
+        transform: scale(1) rotateZ(0);
+    }
+
+    50% {
+        transform: scale(2) rotateZ(180deg);
+    }
+
+    100% {
+        transform: scale(1) rotateZ(360deg);
+    }
+
+}
+
+.rotate-scale-up {
+    animation: rotate-scale-up 5s linear both;
+}
+
+@keyframes swing-in-top-fwd {
+    0% {
+        transform: rotateX(-100deg);
+        transform-origin: top;
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateX(0deg);
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+.swing-in-top-fwd {
+    animation: swing-in-top-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+@keyframes bounce-in-top {
+    0% {
+        transform: translateY(-500px);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    38% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        transform: translateY(-65px);
+        animation-timing-function: ease-in;
+    }
+
+    72% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+
+    81% {
+        transform: translateY(-28px);
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        transform: translateY(-8px);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+}
+
+.bounce-in-top {
+    animation: bounce-in-top 4s both;
+}
+
+.rotate-vert-center {
+	animation: rotate-vert-center 16s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+  
+
+ @keyframes rotate-vert-center {
+    0% {
+      transform: rotateY(0);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
