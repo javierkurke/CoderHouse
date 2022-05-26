@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="bootstrap" href="C:\Users\javie\Desktop\PROYECTO\mi_repositorio\css\bootstrap.min.css">
+    <link rel="javaScript" href="C:\Users\javie\Desktop\PROYECTO\mi_repositorio\js\bootstrap.min.js">
     <link rel="shortcut icon" href="favicon.png">
     <link rel="stylesheet" href="css/estilos.css ">
 </head>
 
 <body class="bodyindex">
-    <section class="bodyindex2" id="grilla">
-        <header id="headera" class="header">
+    <section class="bodyindex2">
+        <header class="header">
             <nav class="logoheader">
-                <a  href="index.html"><img  class=" bounce-in-top" src="assets/img/logo.png" alt="logo" width="250"></a>
+                <a href="index.html"><img class=" bounce-in-top" src="assets/img/logo.png" alt="logo" width="250"></a>
             </nav>
             <nav class="navHeader ">
                 <a href="index.html" class="p1">Inicio</a>
@@ -30,26 +30,42 @@
 
         </header>
         <main class="main">
-            <section id="section1a">
-                <h1 class="titulos focus-in-expand">Bar Rock and Fellers</h1>
-                <section class="imagenindex1">
-                    <img class="imagenindex rotate-vert-center" src="assets/img/local.jpg" alt="Imagenes del luga en un carrucel"
-                        height="400px" width="450px"><video class="video__header " src="assets/video/Untitled Video.mp4"
-                        height="400px" width="450px" autoplay muted loop></video>
-                    <img class="imagenindex rotate-vert-center" height="400px" width="450px" src="assets/img/local3.jpg"
-                        alt="imagen carrucel">
-                        <br>
-                        <div>
-                            <a href="pages/contacto.html" #46>
-                                <div class="botonReserva"> <div><img  src="assets/img/R (1).png" alt="reserva"> </div></div>
-                            </a>
-                        </div>
-                        
-                </section>
-            </section>
-            <section id="section2" class="textoindex">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-indicators" width="100%" >
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carrucel__padre">
+                  <div class="carousel-item kenburns-left">
+                    <img src="assets/img/local.jpg" class="carrucel__hijos enburns-left "  alt="asd">
+                  </div>
+                  <div class="carousel-item kenburns-left active">
+                    <img src="assets/img/local3.jpg" class="carrucel__hijos enburns-left "  alt="asd1">
+                  </div>
+                  <div class="carousel-item kenburns-left ">
+                      <img src="assets/img/fondo 1.jpg"  class="carrucel__hijos enburns-left"  alt="asd2">
+                 </div>
+                </div>
                 
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <br>
+              <div>
+                <a href="pages/contacto.html" #46>
+                    <div class="botonReserva vibrate-1">
+                        <div><img src="assets/img/R (1).png" alt="reserva"> </div>
+                    </div>
+                </a>
+            </div>
+            <section class="textoindex">
                 <div>
                     <p>Rock & Feller´s propone platos que resuenan al ritmo del rock & roll, elaborados en una cocina
                         totalmente a la vista. La carta se distingue por valorar la calidad de sus materias primas y el
@@ -90,50 +106,47 @@
 
 
                     </p>
-                   
-                   
+
+
                 </div>
-                <br>
-            </section>           
-            <section class="sup_formulario" id="section3" >
-                <form class="formulario"  action="" method="post">
+                
+            </section>
+            <br>
+            <section class="sup_formulario" >
+                <form class="formulario" action="" method="post">
                     <label class="p3">Envianos un mensaje...</label>
-                    
-                    <input class="p3" type="text" placeholder="Nombre:" class="p3">
-                    <input class="p3" type="text" placeholder="Apellido:" class="p3">
-                    <input class="p3" type="text" placeholder="Email:" class="p3">
-                    <label class="p3">La atencion fue:</label>
-                    <select class="p1" name="Puntuacion:">
-                        <option   value="Excelente">Excelente</option>
-                        <option   value="Muy bunea">Muy bunea</option>
-                        <option  value="Buena">Buena</option>
-                        <option   value="Regular">Regular</option>
-                        <option  value="Mala">Mala</option>
-                        <option  value="Pesimo :@">Pesimo :@</option>
+
+                    <input class="p3" type="text" placeholder="Nombre:" class="p3"><input class="p3" type="text" placeholder="Apellido:" class="p3">
+                    <input class="p3" type="text" placeholder="Email:" class="p3"><label class="p3">La atencion fue:</label>
+                    <select class="p3__3" name="Puntuacion:">
+                        <option value="Excelente">Excelente</option>
+                        <option value="Muy bunea">Muy bunea</option>
+                        <option value="Buena">Buena</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Mala">Mala</option>
+                        <option value="Pesimo :@">Pesimo :@</option>
                     </select>
-         
+
                     <textarea class="p5" name="comentario" id="" cols="30" rows="10"
                         placeholder="Escribe tu comentario..."></textarea>
-                 
-                    <input  type="checkbox" name="quiere recibir contenido">
-                    <label class="p3">Quiero recibir novedades del Restautante/Bar.</label>
-                    
-                    <button class="p3" type="reset">Limpiar</button> 
+                        <label class="p3__2">Quiero recibir novedades del Restautante/Bar.</label> <input class="chekbox vibrate-1" type="checkbox" name="quiere recibir contenido">
+                        <br>
+                    <button class="p3" type="reset">Limpiar</button>
                     <button class="p3" type="submit">Enviar</button>
                 </form>
             </section>
         </main>
-
+        <br>
         <aside class="publicidad">
-            <div id="asidea1">
+            <div >
                 <img class="imagenindexpublicidad1" src="assets/img/amadeus" alt="amadeus">
             </div>
-            <div id="asidea2">
+            <div >
                 <img class="imagenindexpublicidad2" src="assets/img/Quilmes publicidad.webp" alt="publicidad">
             </div>
         </aside>
 
-        <footer id="footera" class="footer">
+        <footer class="footer">
             <a href="https://www.facebook.com/" target="_blank">
                 <img src="assets/img/facebok.png" width="50" height="50" alt="Facebok">
             </a>
@@ -144,9 +157,10 @@
                 <img src="assets/img/insta.png" width="50" height="50" alt="instagram">
             </a>
 
-            <p>Todos los derechos Reservados...</p>
+            <p class="p3">Todos los derechos Reservados...</p>
         </footer>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
