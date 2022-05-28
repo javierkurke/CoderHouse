@@ -8,16 +8,22 @@
     <title>Menu Principal</title>
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../css/estilos.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    
 </head>
 
 <body class="bodycomida"> 
+  <section class="bodyindex2">
     <header class="header">
         <nav class="logoheader">
             <a href="../index.html"><img class=" bounce-in-top" src="../assets/img/logo.png" alt="logo" width="250"></a>
         </nav>
         <nav class="navHeader ">
             <a href="../index.html" class="p1">Inicio</a>
-            <a href="menuPrincipal.html" class="p1">Carta Principal</a>
+            
             <a href="menuBebidas.html" class="p1">Menú Bebidas</a>
             <a href="agenda.html" class="p1">Agenda</a>
             <a href="contacto.html" class="p1">Contacto</a>
@@ -26,42 +32,312 @@
     </header>
     <main class="mainclass">
         <br>
-        <h1 class="titulos">Menú</h1>
-        <br>
-        <article>
-            <section>
-                <h2 class="titulos3">Picadas Y entradas</h2>
+        <h1 class="titulos">MENÚ</h1>
+        
+             <h2 class="titulos3">Picadas Y entradas</h2>
+            <section class="sectionh">
+                
                 <br>
-                <img class="imagenescomida" src="../assets/img/picada.jpg" width="300" height="300"
-                    alt="Imagenes del menu 1">
+                <div id="carouselExampleInterval" class="carousel slide carrucel_comida" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../assets/img/picada1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../assets/img/picada2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/img/picada3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div> <table class="carrucel__tabla">
+                  <tr class="margenes color2" >
+                    <td ><strong>Picada</strong></td>
+                    <td ><strong>Comen</strong></td>
+                    <td ><strong>Precio</strong></td>
+                  </tr>                    
+                  <tr class="margenes">
+                    <td >Picada Clasica</td>
+                    <td class="margenes2">2</td>
+                    <td>$2000.</td>
+                  </tr>                    
+                  <tr class="margenes">
+                      <td>Picada 4 Quesos</td>
+                      <td class="margenes2">2</td>
+                      <td>$2000.</td>
+                  </tr>                    
+                  <tr class="margenes">
+                      <td>Picada de Campo</td>
+                      <td class="margenes2">2</td>
+                      <td>$2500.</td>
+                  </tr>
+                  <tr class="margenes">
+                      <td>Papas Rusticas</td>
+                      <td class="margenes2">2</td>
+                      <td>$500.</td>
+                    </tr>
+                    <tr class="margenes">
+                      <td>Bastones con Queso</td>
+                      <td class="margenes2">2</td>
+                      <td>$600.</td>
+                    </tr>                  
+                  </table> 
+                <br>
+                
+                
+            </section>
+            <h1 class="titulos3">Hamburguesas Y Sandwiches</h2>
+            <section class="sectionh">                
+                <br>
+                <div id="carouselExampleControls" class="carousel slide carrucel_comida" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img src="../assets/img/hamburguesa3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item  active">
+                        <img src="../assets/img/hamburguesa2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/img/hambuerguesa1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div><table class="carrucel__tabla">
+                    <tr class="margenes color2" >
+                      <td ><strong>Picada</strong></td>
+                      <td ><strong>Comen</strong></td>
+                      <td ><strong>Precio</strong></td>
+                    </tr>                    
+                    <tr class="margenes">
+                      <td >Picada Clasica</td>
+                      <td class="margenes2">2</td>
+                      <td>$2000.</td>
+                    </tr>                    
+                    <tr class="margenes">
+                        <td>Picada 4 Quesos</td>
+                        <td class="margenes2">2</td>
+                        <td>$2000.</td>
+                    </tr>                    
+                    <tr class="margenes">
+                        <td>Picada de Campo</td>
+                        <td class="margenes2">2</td>
+                        <td>$2500.</td>
+                    </tr>
+                    <tr class="margenes">
+                        <td>Papas Rusticas</td>
+                        <td class="margenes2">2</td>
+                        <td>$500.</td>
+                      </tr>
+                      <tr class="margenes">
+                        <td>Bastones con Queso</td>
+                        <td class="margenes2">2</td>
+                        <td>$600.</td>
+                      </tr>                  
+                    </table>       
                 <br>
             </section>
-            <section>
-                <h1 class="titulos3">Hamburguesas Y Sandwiches</h2>
+            <h1 class="titulos3">Ensaladas</h1>
+            <section  class="sectionh" >
+              
                 <br>
-                <img class="imagenescomida" src="../assets/img/burguerpapas.jpeg" width="300" height="300"
-                    alt="Imagenes del menu 2">
-                <br>
+                <div id="carouselExampleControls" class="carousel slide carrucel_comida" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img src="../assets/img/ensalada1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item  active">
+                        <img src="../assets/img/ensalada2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/img/ensalada3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <table class="carrucel__tabla">
+                    <tr class="margenes color2" >
+                      <td ><strong>Picada</strong></td>
+                      <td ><strong>Comen </strong></td>
+                      <td ><strong>Precio</strong></td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                      <td >Picada Clasica</td>
+                      <td>2</td>
+                      <td>$2000.</td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                        <td>Picada 4 Quesos</td>
+                        <td>2</td>
+                        <td>$2000.</td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                        <td>Picada de Campo</td>
+                        <td>2</td>
+                        <td>$2500.</td>
+                    </tr>
+                    <tr class="margenes">
+                        <td>Papas Rusticas</td>
+                        <td>2</td>
+                        <td>$500.</td>
+                      </tr>
+                      <tr class="margenes">
+                        <td>Bastones con Queso</td>
+                        <td>2</td>
+                        <td>$600.</td>
+                      </tr>                  
+                    </table>
+                
+                 <br>
             </section>
-            <section>
-                <h1 class="titulos">Ensaladas</h1>
+            <h2 class="titulos3">Pizzas y Pizzanesas</h2>
+            <section  class="sectionh">                
                 <br>
-                <img class="imagenescomida" src="../assets/img/ensalada.jpeg" width="300" height="300"
-                    alt="Imagenes del menu 3">
+                <div id="carouselExampleControls" class="carousel slide carrucel_comida" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img src="../assets/img/pizzas1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item  active">
+                        <img src="../assets/img/pizza.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/img/pizzas3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <table class="carrucel__tabla">
+                    <tr class="margenes color2" >
+                      <td ><strong>Picada</strong></td>
+                      <td ><strong>Comen </strong></td>
+                      <td ><strong>Precio</strong></td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                      <td >Picada Clasica</td>
+                      <td>2</td>
+                      <td>$2000.</td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                        <td>Picada 4 Quesos</td>
+                        <td>2</td>
+                        <td>$2000.</td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                        <td>Picada de Campo</td>
+                        <td>2</td>
+                        <td>$2500.</td>
+                    </tr>
+                    <tr class="margenes">
+                        <td>Papas Rusticas</td>
+                        <td>2</td>
+                        <td>$500.</td>
+                      </tr>
+                      <tr class="margenes">
+                        <td>Bastones con Queso</td>
+                        <td>2</td>
+                        <td>$600.</td>
+                      </tr>                  
+                    </table>
                 <br>
+                
             </section>
-            <section>
-                <h2 class="titulos">Pizzas y Pizzanesas</h2>
+            <h2 class="titulos3">Postres</h2>
+            <section  class="sectionh">
+                
                 <br>
-                <img class="imagenescomida" src="../assets/img/pizza.jpeg" width="300" height="300"
-                    alt="Imagenes del menu 4">
-                <br>
-            </section>
-            <section>
-                <h2 class="titulos">Postres</h2>
-                <br>
-                <img class="imagenescomida" src="../assets/img/postres.jpg" width="300" height="300"
-                    alt="Imagenes del menu 5">
+                <div id="carouselExampleControls" class="carousel slide carrucel_comida" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img src="../assets/img/postre1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item  active">
+                        <img src="../assets/img/postre2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/img/Tiramisu.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <table class="carrucel__tabla">
+                    <tr class="margenes color2" >
+                      <td ><strong>Picada</strong></td>
+                      <td ><strong>Comen </strong></td>
+                      <td ><strong>Precio</strong></td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                      <td >Picada Clasica</td>
+                      <td>2</td>
+                      <td>$2000.</td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                        <td>Picada 4 Quesos</td>
+                        <td>2</td>
+                        <td>$2000.</td>
+                    </tr>
+                    
+                    <tr class="margenes">
+                        <td>Picada de Campo</td>
+                        <td>2</td>
+                        <td>$2500.</td>
+                    </tr>
+                    <tr class="margenes">
+                        <td>Papas Rusticas</td>
+                        <td>2</td>
+                        <td>$500.</td>
+                      </tr>
+                      <tr class="margenes">
+                        <td>Bastones con Queso</td>
+                        <td>2</td>
+                        <td>$600.</td>
+                      </tr>                  
+                    </table>
+                
+                
                 <br>
             </section>
 
@@ -77,10 +353,10 @@
             <img src="../assets/img/insta.png" width="50" height="50" alt="instagram">
         </a>
 
-        <p>Todos los derechos Reservados...</p>
+        <p class="p3">Todos los derechos Reservados...</p>
     </footer>
-
-
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
