@@ -1,0 +1,42 @@
+.header {
+    margin: 0%;
+    padding: 0px;
+
+    width: 100%;
+    height: 90%;
+}
+
+.logoheader {
+
+    padding: 0px;
+    background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border: solid rgb(0, 0, 0);
+    border-style: double;
+    border-width: 0.3cm;
+    text-align: center;
+}
+
+.header3 {
+    display:grid;
+    width: 98%;
+    height: 100%;
+}
+
+.logoheader2 {
+
+    padding: 0px;
+    background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+
+    width: 100%;
+    height: 90%;
+    position: relative;
+    border: solid rgb(0, 0, 0);
+    border-style: double;
+    border-width: 0.3cm;
+    text-align: center;
+
+}

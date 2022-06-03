@@ -1,0 +1,38 @@
+
+.navHeader2 {
+
+    
+    background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+    display: flex;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 100%;
+    height: 100%;
+    position: flex;
+    border: solid black;
+    border-style: double;
+    border-width: 0.3cm;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+}
+.navHeader {
+
+    padding: 0px;
+    background-image: radial-gradient(circle, #b1170994, #93160f, #761511, #591410, #3d110d);
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 20%;
+    position: flex;
+    border: solid black;
+    border-style: double;
+    border-width: 0.3cm;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}

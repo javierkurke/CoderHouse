@@ -1,0 +1,59 @@
+.bodyindex {
+    background-image: url("../assets/img/fondo\ index.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.bodyindex2 {
+    background-color: rgba(0, 0, 0, 0.419);
+    height: 100%;
+
+}
+.bodyagenda {
+
+    background-repeat: no-repeat;
+    background-image: url("../assets/img/fondo\ 2.jpg");
+    background-size: cover;
+    display: grid;
+    height: 100%;
+}
+
+
+.bodybebida {
+    background-image: url("../assets/img/fondobebida\ 2.jpg");
+    background-color: rgba(0, 0, 0, 0.521);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100;
+
+
+
+
+}
+
+.bodycomida {
+    background-image: url("../assets/img/fondo\ 5.jpg");
+    background-color: rgba(0, 0, 0, 0.855);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.bodycontacto {
+    display: block;
+    background-image: url(../assets/img/contacto.jpg);
+    background-color: rgba(0, 0, 0, 0.855);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+
+
+
+}

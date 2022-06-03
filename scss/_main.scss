@@ -1,0 +1,61 @@
+main {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+.publicidad {
+
+    display: flex;
+    grid-template-columns: auto auto;
+    height: 100%;
+    width: 100%;
+    align-items: end;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.sectionh {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.margenes {
+    background-color: #00000000;
+    justify-content: space-around;
+    height: 30px;
+    ;
+
+
+}
+.guitarra{
+    justify-self: start;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 60%;
+    width: 70%;
+
+
+}
+.grupo {
+    display: flex;
+    grid-row: auto;
+    background-color: #3d110d00;
+    -ms-grid-row-align: center;
+
+}
+.contraste {
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.855);
+    background-size: cover;
+}
+.mainclass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
