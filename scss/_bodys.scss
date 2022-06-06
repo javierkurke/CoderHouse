@@ -1,7 +1,14 @@
+$bodycolor:rgba(0, 0, 0, 0.855);
+$mapita:(key1:flex,key2:grid,key3:block);
+@mixin elPoderoso{
+    background-repeat: no-repeat;
+    
+}
+
 .bodyindex {
     background-image: url("../assets/img/fondo\ index.jpg");
-    background-repeat: no-repeat;
-    display: flex;
+    @include elPoderoso();
+    display:map-get($map:mapita, $key:key1);
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -14,10 +21,10 @@
 }
 .bodyagenda {
 
-    background-repeat: no-repeat;
+    @include elPoderoso();
     background-image: url("../assets/img/fondo\ 2.jpg");
     background-size: cover;
-    display: grid;
+    display:map-get($map:mapita, $key:key2);
     height: 100%;
 }
 
@@ -25,7 +32,7 @@
 .bodybebida {
     background-image: url("../assets/img/fondobebida\ 2.jpg");
     background-color: rgba(0, 0, 0, 0.521);
-    background-repeat: no-repeat;
+    @include elPoderoso();
     background-position: center;
     background-size: cover;
     height: 100;
@@ -34,25 +41,18 @@
 
 
 }
-
 .bodycomida {
+    @extend .bodybebida;
     background-image: url("../assets/img/fondo\ 5.jpg");
-    background-color: rgba(0, 0, 0, 0.855);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
+    background-color:$bodycolor;   
 }
 
 .bodycontacto {
-    display: block;
-    background-image: url(../assets/img/contacto.jpg);
-    background-color: rgba(0, 0, 0, 0.855);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-
+    @extend.bodybebida;
+    display:map-get($map:mapita, $key:key3);
+    background-image: url("../assets/img/contacto.jpg");
+    background-color:$bodycolor;
+   
 
 
 
