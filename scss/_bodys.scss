@@ -1,5 +1,6 @@
 $bodycolor:rgba(0, 0, 0, 0.855);
-$mapita:(key1:flex,key2:grid,key3:block);
+$mapita:(key1:flex,
+ key2:grid, key3:block);
 @mixin elPoderoso{
     background-repeat: no-repeat;
     
@@ -8,23 +9,83 @@ $mapita:(key1:flex,key2:grid,key3:block);
 .bodyindex {
     background-image: url("../assets/img/fondo\ index.jpg");
     @include elPoderoso();
-    display:map-get($map:mapita, $key:key1);
+    display:mapa-get($mapita,key1);
     background-position: center;
     background-size: cover;
     height: 100%;
-}
+    .bodyindex2 {
+        background-color: rgba(0, 0, 0, 0.419);
+        height: 100%;
+        .header {
+            margin: 0%;
+            padding: 0px;
+        
+            width: 100%;
+            height: 90%;
+            .logoheader {
 
+                padding: 0px;
+                background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+            
+                width: 100%;
+                height: 50%;
+                position: relative;
+                border: solid rgb(0, 0, 0);
+                border-style: double;
+                border-width: 0.3cm;
+                text-align: center;
+            }
+            .navHeader {
+
+                padding: 0px;
+                background-image: radial-gradient(circle, #b1170994, #93160f, #761511, #591410, #3d110d);
+                display: flex;
+                flex-wrap: wrap;
+            
+                width: 100%;
+                height: 20%;
+                position: flex;
+                border: solid black;
+                border-style: double;
+                border-width: 0.3cm;
+                text-align: center;
+                justify-items: center;
+                justify-content: center;
+                .p1 {
+                    color: rgba(255, 255, 255, 0.815);
+                    background-color: rgba(7, 1, 1, 0.007);
+                    text-decoration: none;
+                    font-size: 125%;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    margin-bottom: 1%;
+                    margin-top: 1%;
+                    flex-wrap: wrap;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    text-align: center;
+                    text-align: justify;
+                    padding: 1%;
+                    transition: all 1s;
+                    border-radius: 5%;
+                }
+            }
+        }
+
+    
+    }
+}
 .bodyindex2 {
     background-color: rgba(0, 0, 0, 0.419);
     height: 100%;
 
 }
+
 .bodyagenda {
 
     @include elPoderoso();
     background-image: url("../assets/img/fondo\ 2.jpg");
     background-size: cover;
-    display:map-get($map:mapita, $key:key2);
+    display:mapa-get($mapita,key2);
     height: 100%;
 }
 
@@ -49,7 +110,7 @@ $mapita:(key1:flex,key2:grid,key3:block);
 
 .bodycontacto {
     @extend.bodybebida;
-    display:map-get($map:mapita, $key:key3);
+    display:mapa-get($mapita,key3);
     background-image: url("../assets/img/contacto.jpg");
     background-color:$bodycolor;
    

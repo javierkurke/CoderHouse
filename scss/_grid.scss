@@ -1,4 +1,3 @@
-
 .grid_texto {
     color: white;
     display: flex;
@@ -17,34 +16,6 @@
 
 }
 
-headera {
-    grid-area: header;
-}
-
-asidea1 {
-    grid-area: aside1;
-}
-
-asidea2 {
-    grid-area: aside2;
-
-}
-
-section1a {
-    grid-area: section1;
-}
-
-section2 {
-    grid-area: section2;
-}
-
-section3 {
-    grid-area: section3;
-}
-
-footera {
-    grid-area: footer;
-}
 .grid {
     display: grid;
 
@@ -69,22 +40,24 @@ footera {
         "guitarra caja2 caja2"
         "guitarra caja2 caja2"
         "footer2 footer2 footer2";
+        header2 {
+            grid-area: header2;
+        
+        }
+        caja2 {
+            grid-area: caja2;
+        }
+        
+        titulo {
+            grid-area: titulu;
+        }
+
+        guitarra {
+            grid-area: guitarra;
+        }
+        footer2{
+            grid-area: footer2;
+        }
 
 
-}
-header2 {
-    grid-area: header2;
-
-}
-
-titulo {
-    grid-area: titulu;
-}
-
-guitarra {
-    grid-area: guitarra;
-}
-
-caja2 {
-    grid-area: caja2;
 }

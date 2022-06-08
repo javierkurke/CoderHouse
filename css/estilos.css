@@ -2,10 +2,58 @@
 .bodyindex {
   background-image: url("../assets/img/fondo index.jpg");
   background-repeat: no-repeat;
-  display: flex;
+  display: mapa-get((key1: flex, key2: grid, key3: block), key1);
   background-position: center;
   background-size: cover;
   height: 100%; }
+  .bodyindex .bodyindex2 {
+    background-color: rgba(0, 0, 0, 0.419);
+    height: 100%; }
+    .bodyindex .bodyindex2 .header {
+      margin: 0%;
+      padding: 0px;
+      width: 100%;
+      height: 90%; }
+      .bodyindex .bodyindex2 .header .logoheader {
+        padding: 0px;
+        background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+        width: 100%;
+        height: 50%;
+        position: relative;
+        border: solid black;
+        border-style: double;
+        border-width: 0.3cm;
+        text-align: center; }
+      .bodyindex .bodyindex2 .header .navHeader {
+        padding: 0px;
+        background-image: radial-gradient(circle, #b1170994, #93160f, #761511, #591410, #3d110d);
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 20%;
+        position: flex;
+        border: solid black;
+        border-style: double;
+        border-width: 0.3cm;
+        text-align: center;
+        justify-items: center;
+        justify-content: center; }
+        .bodyindex .bodyindex2 .header .navHeader .p1 {
+          color: rgba(255, 255, 255, 0.815);
+          background-color: rgba(7, 1, 1, 0.007);
+          text-decoration: none;
+          font-size: 125%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 1%;
+          margin-top: 1%;
+          flex-wrap: wrap;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          text-align: center;
+          text-align: justify;
+          padding: 1%;
+          transition: all 1s;
+          border-radius: 5%; }
 
 .bodyindex2 {
   background-color: rgba(0, 0, 0, 0.419);
@@ -15,10 +63,10 @@
   background-repeat: no-repeat;
   background-image: url("../assets/img/fondo 2.jpg");
   background-size: cover;
-  display: grid;
+  display: mapa-get((key1: flex, key2: grid, key3: block), key2);
   height: 100%; }
 
-.bodybebida {
+.bodybebida, .bodycomida, .bodycontacto {
   background-image: url("../assets/img/fondobebida 2.jpg");
   background-color: rgba(0, 0, 0, 0.521);
   background-repeat: no-repeat;
@@ -28,20 +76,12 @@
 
 .bodycomida {
   background-image: url("../assets/img/fondo 5.jpg");
-  background-color: rgba(0, 0, 0, 0.855);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%; }
+  background-color: rgba(0, 0, 0, 0.855); }
 
 .bodycontacto {
-  display: block;
-  background-image: url(../assets/img/contacto.jpg);
-  background-color: rgba(0, 0, 0, 0.855);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%; }
+  display: mapa-get((key1: flex, key2: grid, key3: block), key3);
+  background-image: url("../assets/img/contacto.jpg");
+  background-color: rgba(0, 0, 0, 0.855); }
 
 .botonReserva {
   display: flex;
@@ -126,27 +166,6 @@
   justify-content: center;
   justify-items: center; }
 
-headera {
-  grid-area: header; }
-
-asidea1 {
-  grid-area: aside1; }
-
-asidea2 {
-  grid-area: aside2; }
-
-section1a {
-  grid-area: section1; }
-
-section2 {
-  grid-area: section2; }
-
-section3 {
-  grid-area: section3; }
-
-footera {
-  grid-area: footer; }
-
 .grid {
   display: grid;
   grid-template-columns: 30% 50%;
@@ -162,18 +181,16 @@ footera {
 #grilla2 {
   display: grid;
   grid-template-areas: "header2 header2 header2" "auto titulu auto" "guitarra caja2 caja2" "guitarra caja2 caja2" "footer2 footer2 footer2"; }
-
-header2 {
-  grid-area: header2; }
-
-titulo {
-  grid-area: titulu; }
-
-guitarra {
-  grid-area: guitarra; }
-
-caja2 {
-  grid-area: caja2; }
+  #grilla2 header2 {
+    grid-area: header2; }
+  #grilla2 caja2 {
+    grid-area: caja2; }
+  #grilla2 titulo {
+    grid-area: titulu; }
+  #grilla2 guitarra {
+    grid-area: guitarra; }
+  #grilla2 footer2 {
+    grid-area: footer2; }
 
 .header {
   margin: 0%;
@@ -661,7 +678,7 @@ main {
   font-size: 120%;
   border: solid 5px black;
   color: white;
-  background-color: rgba(139, 0, 0, 0.603);
+  background-color: black;
   height: 55%;
   width: 50%; }
 
@@ -842,6 +859,14 @@ main {
   font-size: 150%;
   height: 50%;
   border: solid 5px #930000; }
+
+.p10 {
+  display: grid;
+  background-color: rgba(255, 0, 0, 0);
+  color: white;
+  font-size: 150%;
+  width: 100%;
+  justify-content: center; }
 
 * {
   margin: 0%;
@@ -1033,3 +1058,42 @@ main {
   .formulario {
     width: 100%;
     margin: 1%; } }
+
+.grid_texto {
+  color: white;
+  display: flex;
+  background-color: rgba(1, 67, 124, 0.797);
+  font-size: 160%;
+  border: double black;
+  width: 95%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  justify-content: center;
+  justify-items: center; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  justify-items: center;
+  text-justify: auto;
+  margin-top: 2%;
+  width: 100%;
+  height: 100;
+  padding: 0%; }
+
+#grilla2 {
+  display: grid;
+  grid-template-areas: "header2 header2 header2" "auto titulu auto" "guitarra caja2 caja2" "guitarra caja2 caja2" "footer2 footer2 footer2"; }
+  #grilla2 header2 {
+    grid-area: header2; }
+  #grilla2 caja2 {
+    grid-area: caja2; }
+  #grilla2 titulo {
+    grid-area: titulu; }
+  #grilla2 guitarra {
+    grid-area: guitarra; }
+  #grilla2 footer2 {
+    grid-area: footer2; }
