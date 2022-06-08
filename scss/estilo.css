@@ -1664,81 +1664,4 @@ main {
     margin: 1%;
   }
 }
-
-.grid_texto {
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: rgba(1, 67, 124, 0.797);
-  font-size: 160%;
-  border: double black;
-  width: 95%;
-  height: 100%;
-  margin: 0%;
-  padding: 0%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  justify-items: center;
-}
-
-.grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 30% 50%;
-      grid-template-columns: 30% 50%;
-  -ms-grid-rows: auto auto;
-      grid-template-rows: auto auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  justify-items: center;
-  text-justify: auto;
-  margin-top: 2%;
-  width: 100%;
-  height: 100;
-  padding: 0%;
-}
-
-#grilla2 {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "header2 header2 header2" "auto titulu auto" "guitarra caja2 caja2" "guitarra caja2 caja2" "footer2 footer2 footer2";
-}
-
-#grilla2 header2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: header2;
-}
-
-#grilla2 caja2 {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: caja2;
-}
-
-#grilla2 titulo {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: titulu;
-}
-
-#grilla2 guitarra {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  grid-area: guitarra;
-}
-
-#grilla2 footer2 {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: footer2;
-}
 /*# sourceMappingURL=estilo.css.map */
