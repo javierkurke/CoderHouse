@@ -925,7 +925,7 @@ main {
     justify-self: center;
     grid-template-columns: auto; }
   .p1_2 {
-    font-size: 150%; }
+    font-size: 120%; }
   #grilla2 {
     display: grid;
     grid-template-areas: "header2" "auto titulu auto" "guitarra" "caja2" "footer2"; }
