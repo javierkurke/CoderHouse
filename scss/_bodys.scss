@@ -81,12 +81,13 @@ $mapita:(key1:flex,
 }
 
 .bodyagenda {
-
+    display: grid;
     @include elPoderoso();
     background-image: url("../assets/img/fondo\ 2.jpg");
     background-size: cover;
     display:mapa-get($mapita,key2);
     height: 100%;
+    width: 100%;
 }
 
 
