@@ -15,6 +15,23 @@
     transition: all 1s;
     border-radius: 5%;
 }
+.p1_2{
+    color: rgba(255, 255, 255, 0.815);
+    background-color: rgba(7, 1, 1, 0.007);
+    text-decoration: none;
+    font-size: 125%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-align: justify;
+    padding: 1%;
+    transition: all 1s;
+    border-radius: 5%;
+}
 
 .textoindex {
     display: flex;
@@ -239,18 +256,29 @@
 }
 
 .p7 {
-
-
-    text-align: justify;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.834);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    height: 250%;
+    width: 40%;
     
+}
+.p_7{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
     background-color: rgba(0, 0, 0, 0.834);
     color: rgb(255, 255, 255);
     font-size: 150%;
-    height: 50%;
-    border: solid 5px rgb(147, 0, 0);
+    height: 250%;
+    width: 100%;
+    border: solid #b11809;
+    border-radius: 2%;
 }
 .p10{
     display: grid;

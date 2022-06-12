@@ -112,6 +112,7 @@ $mapita:(key1:flex,
     @extend.bodybebida;
     display:mapa-get($mapita,key3);
     background-image: url("../assets/img/contacto.jpg");
+    background-size: auto;
     background-color:$bodycolor;
    
 
