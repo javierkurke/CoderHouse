@@ -14,17 +14,44 @@
 
 
 @media screen and(min-width:576px) {
-    #grilla {
-        grid-template-columns: (0.2fr 1, 2fr)
-    }
+  
     .p1_2 {
         font-size: 100%;
+
+    }
+    .logoheader2 {
+        display: grid;
+        padding: 0px;
+        background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+    
+        width: auto;
+        height: 90%;
+        position: relative;
+        border: solid rgb(0, 0, 0);
+        border-style: double;
+        border-width: 0.3cm;
+        text-align: center;
+    
     }
 
 
 }
 
 @media screen and (max-width: 2900px) {
+    .logoheader2 {
+        display: grid;
+        padding: 0px;
+        background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+    
+        width: auto;
+        height: 90%;
+        position: relative;
+        border: solid rgb(0, 0, 0);
+        border-style: double;
+        border-width: 0.3cm;
+        text-align: center;
+    
+    }
     .guitarra {
         display: grid;
         height: 40%;
@@ -73,6 +100,20 @@
         grid-template-columns: auto;
         
 
+    }
+    .logoheader2 {
+        display: grid;
+        padding: 0px;
+        background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+    
+        width: auto;
+        height: 90%;
+        position: relative;
+        border: solid rgb(0, 0, 0);
+        border-style: double;
+        border-width: 0.3cm;
+        text-align: center;
+    
     }
   
 
@@ -182,7 +223,7 @@
         background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
         display: flex;
         grid-template-columns: 20% 20% 20% 20%;
-        width: 100%;
+        width: auto;
         height: 100%;
         position: flex;
         border: solid black;
@@ -200,7 +241,7 @@
 }
 
 /*meiacueri contacto*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .p7 {
 
 
