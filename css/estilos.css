@@ -82,7 +82,7 @@
 
 .bodycontacto {
   display: mapa-get((key1: flex, key2: grid, key3: block), key3);
-  background-image: url("../assets/img/local.jpg");
+  background-image: url("../assets/img/contacto2.jpg");
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.855); }
 
