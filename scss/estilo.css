@@ -2,7 +2,7 @@
 .bodyindex {
   background-image: url("../assets/img/fondo index.jpg");
   background-repeat: no-repeat;
-  display: mapa-get((key1: flex, key2: grid, key3: block), key1);
+  display: mapa-get(key1: flex, key2: grid, key3: block);
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -252,7 +252,11 @@
 #grilla2 {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header2 header2 header2" "auto titulu auto" "guitarra caja2 caja2" "guitarra caja2 caja2" "footer2 footer2 footer2";
+      grid-template-areas: "header2 header2 header2"
+ "auto titulu auto"
+ "guitarra caja2 caja2"
+ "guitarra caja2 caja2"
+ "footer2 footer2 footer2";
 }
 
 #grilla2 header2 {
@@ -1398,7 +1402,11 @@ main {
   #grilla2 {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header2" "auto titulu auto" "guitarra" "caja2" "footer2";
+        grid-template-areas: "header2"
+ "auto titulu auto"
+ "guitarra"
+ "caja2"
+ "footer2";
   }
   .grupo {
     display: -webkit-box;
@@ -1431,7 +1439,11 @@ main {
   #grilla2 {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header2" "auto titulu auto" "guitarra" "caja2" "footer2";
+        grid-template-areas: "header2"
+ "auto titulu auto"
+ "guitarra"
+ "caja2"
+ "footer2";
   }
   .grupo {
     display: -webkit-box;
@@ -1481,7 +1493,11 @@ main {
   #grilla2 {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header2" "auto titulu auto" "guitarra" "caja2" "footer2";
+        grid-template-areas: "header2"
+ "auto titulu auto"
+ "guitarra"
+ "caja2"
+ "footer2";
   }
   .grupo {
     display: -webkit-box;
