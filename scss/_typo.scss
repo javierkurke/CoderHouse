@@ -8,7 +8,7 @@
     margin-bottom: 1%;
     margin-top: 1%;
     flex-wrap: wrap;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arima', cursive;
     text-align: center;
     text-align: justify;
     padding: 1%;
@@ -58,6 +58,17 @@
     transition: all 3s;
 
 }
+.p3__1 {
+    display: flex;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    height: 100%;
+    width: 100%;
+    justify-content:left;
+    transition: all 3s;
+
+}
 
 .p3__2 {
     display: flex;
@@ -87,6 +98,9 @@
 
 .titulos {
     display: flex;
+    background-color: rgba(0, 0, 0, 0.753);
+    border: solid rgb(80, 79, 79);
+    
     text-align: justify;
     text-decoration: none;
     font-size: 12vh;
@@ -98,9 +112,9 @@
     border-radius: 2%;
     gap: 10%;
     padding: 1%;
-    font-family: "heroes";
-    background-color: #0301007c;
-    color: rgb(250, 195, 42);
+    font-family: 'Arima', cursive;
+    font-family: 'Unna', serif;
+    color: rgb(255, 190, 11);
     width: 100%;
 }
 
@@ -115,21 +129,29 @@
     padding: 1%;
     font-family: "heroes";
     background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
-    color: rgb(250, 195, 42);
+    color: rgb(255, 187, 0);
     width: auto;
 }
 .titulos2 {
+    background-color: rgba(0, 0, 0, 0.301);
+    text-align: center;
+    justify-items: center;
     text-align: center;
     text-decoration: none;
-    font-size: 200%;
-    margin-left: 30%;
-    margin-right: 30%;
+    font-size:5vh;
+    align-items: center;
+    width: 50%;
     margin-bottom: 1%;
     padding: 1%;
-    font-family: "heroes";
-    background-image: radial-gradient(circle, #b11809, #93160fc4, #761411c2, #591410dc, #3d110dd5);
+    font-family: 'Arima', cursive;
+    border:solid rgb(190, 7, 7);
+    
     color: rgb(250, 195, 42);
 
+}
+.titulos2_padre{
+    display: flex;
+    justify-content: center;
 }
 
 @font-face {
@@ -177,7 +199,7 @@
 .clase_padre_p2 {
     display: flex;
     justify-content: center;
-    justify-content: center;
+    
 
 }
 

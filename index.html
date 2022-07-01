@@ -8,6 +8,12 @@
     <meta name="description" content="Una prueba piloto de RockAndFellers hecha por JavierK. sobre paginas para bares.">
     <meta name="keywords" content="ROCKANDFELLERS,BAR, MODELOBAR, ROCK, FELLLERS">
     <title>Inicio</title>
+    <script src="https://kit.fontawesome.com/4598c1f6ad.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Unna:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="bootstrap" href="C:\Users\javie\Desktop\PROYECTO\mi_repositorio\css\bootstrap.min.css">
@@ -22,7 +28,7 @@
             <nav class="logoheader">
                 <a href="index.html"><img class=" bounce-in-top" src="assets/img/logo.png" alt="logo" width="250"></a>
             </nav>
-            <nav class="navHeader ">
+            <nav class="navHeader1">
                 <a href="index.html" class="p1">Inicio</a>
                 <a href="pages/menuPrincipal.html" class="p1">Carta Principal</a>
                 <a href="pages/menuBebidas.html" class="p1">Menú Bebidas</a>
@@ -111,7 +117,10 @@
             <br>
             <section class="sup_formulario" >
                 <form class="formulario" action="" method="post">
-                    <label class="p3">Envianos un mensaje...</label>
+                    <div class="headform">
+                        <label class="headform_letra">Envianos un mensaje...</label>
+                    </div>
+                    
 
                     <input class="p3" type="text" placeholder="Nombre:" class="p3"><input class="p3" type="text" placeholder="Apellido:" class="p3">
                     <input class="p3" type="text" placeholder="Email:" class="p3"><label class="p3">La atencion fue:</label>
@@ -126,10 +135,14 @@
 
                     <textarea class="p5" name="comentario" id="" cols="30" rows="10"
                         placeholder="Escribe tu comentario..."></textarea>
-                        <label class="p3__2">Quiero recibir novedades del Restautante/Bar.</label> <input class="chekbox " type="checkbox" name="quiere recibir contenido">
+                        <div class="form-check form-switch , chekbox1">
+                            
+                            <label class="p3__2">Quiero recibir novedades del Restautante/Bar.</label><input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                          </div>
+                         
                         <br>
-                    <button class="p3" type="reset">Limpiar</button>
-                    <button class="p3" type="submit">Enviar</button>
+                        <button type="reset" class="btn btn-outline-info">Limpiar</button>
+                        <button type="submit" class="btn btn-outline-success">Enviar</button>
                 </form>
             </section>
         </main>

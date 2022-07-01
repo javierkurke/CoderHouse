@@ -9,6 +9,37 @@
 
 
 }
+.headform{
+    height: 10%;
+    
+
+
+}
+.headform_letra{
+    color: antiquewhite;
+    font-family: 'Arima', cursive;
+    font-size: 5vh;
+   
+
+
+}
+.chekbox1{
+    display: flex;    
+    height: 50%;
+    justify-content: center;
+
+}
+.chekbox2{
+    display: flex;
+    background-color: aqua;        
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    
+    
+
+}
+
 
 .formulario {
     background-color: background #500808;
@@ -18,7 +49,7 @@
     flex-direction: column;
     justify-content: center;
 
-    border-radius: 5%;
+   
     padding: 1%;
     height: 100%;
     width: 60%;
